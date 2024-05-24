@@ -107,6 +107,7 @@ myAI's capabilities extend beyond daily tasks and can provide valuable insights 
 
 ### Phase 1: Setup and Integration
 - [x] Install cameras, microphones, and sensors in designated areas
+- [x] Setup media storage system
 - [x] Connect 3D printer and pen plotting robot to the system
 - [x] Integrate object detection and tracking model
 - [x] Implement text-to-3D model conversion system
