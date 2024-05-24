@@ -1,3 +1,5 @@
+![myAI](https://i.imgur.com/GXpjcgB.png)
+
 # myAI
 Cameras and Microphones Are All You Need
 
