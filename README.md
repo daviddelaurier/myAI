@@ -1,53 +1,45 @@
 ![myAI](https://i.imgur.com/GXpjcgB.png)
 
-# myAI
-Cameras and Microphones Are All You Need
+# Cameras and Microphones Are All You Need
 
 ## WARNING
 
 I believe that AI systems must be fully integrated into your environment to truly enhance its users. 
 This causes issues when building ML and LLMs into products because you must violate all privacy of the user.
 
-Realizing this, I have decided to build it myself. Anyone is welcome to use my R&D, but dont come crying to me when your entire life is somehow leaked online. 
+Realizing this, I have decided to build it myself. Anyone is welcome to try this for themselves obviously, but dont come crying to me when your entire life is used as training data for GPT-5. 
 
 USE AT YOUR OWN RISK!
-
-## Overview
-
-- Step 1: Mount cameras and microphones in all rooms you regularly use at your home or office.
-- Step 2: Connect all input devices to your machine using OBS (or whatever you prefer).
-- Step 3: Record/Stream to your machine.
-- Step 4: Ask questions about events in any room in your house.
-- ?
 
 ## Initial Implementations (more to come)
 
 1. Business desk:
-   - Monitor your actions and progress on business paperwork, such as taxes and payroll.
-   - Help you keep track of what you were previously working on to ensure continuity and efficiency.
+   - Monitor my actions and progress on business paperwork, such as taxes and payroll.
+   - Keep track of what I was previously working on because I never remember and no app exists that does this well.
 
 2. 3D printer:
-   - Implement a text-to-3D model file system that allows you to ask the AI to create objects for you.
-   - Monitor the success or failure of prints to keep track of your 3D printing progress.
+   - Natural language to 3d printed object.
+   - Monitor the success or failure of prints to keep track of my 3D printing progress.
 
 3. Pen plotting robot:
-   - Route LLM/AI output to the robot, enabling the AI to control it for various tasks.
-   - Have the AI write thank you letters to your clients using the pen plotter.
-   - Allow the AI to create drawing mockups for new project ideas you are working on.
+   - Natural language to SVG text/image that is routed to the robot.
+   - Ask my AI write personalized thank you letters to clients using the pen plotter.
+   - Ask my AI to create drawing mockups for new project ideas I am working on.
 
 4. Coffee pot:
-   - Monitor your coffee consumption and the amount of coffee left in the pot.
-   - Suggest when to make more coffee based on your consumption averages over time.
+   - Monitor my coffee consumption and the amount of coffee left in the pot.
+   - Tell when to make more coffee based on consumption averages over time.
 
 5. Office kitchen:
-   - Monitor the contents of your refrigerator and suggest recipes based on available ingredients.
-   - Alert you when it's time to load the dishes into the dishwasher.
-   - Notify you when the dishwasher cycle is complete.
+   - Monitor the contents of my refrigerator and tell me what to make based on available ingredients, previous meals, and expiration dates.
+   - Tell me when it's time to load the dishes into the dishwasher.
+   - Tell me when the dishwasher cycle is complete.
 
 6. Backyard and parking area:
-   - Monitor your dogs' activities to ensure their well-being and safety.
-   - Track your vehicle usage for maintenance and scheduling purposes.
-   - Remind you to take the trash out on the designated day and time.
+   - Monitor my two dogs' activities to ensure their well-being and safety.
+   - Track both of my vehicle usages for maintenance and scheduling.
+   - Tell me to take the trash out on the designated day and time.
+   - Tell me if someone other than me or my wife are in the backyard or parking area.
 
 ## Stack
 
@@ -64,7 +56,7 @@ USE AT YOUR OWN RISK!
 - Robotic control for the pen plotting robot
 
 ### OBS Overlays (dont need API's...)
-- Scheduling and reminder system
+- Scheduling and reminder system via screencapture/VLM request of all datastreams I am interested in.
 
 ## Expanded Uses and Long-term Analysis
 
