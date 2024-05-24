@@ -107,11 +107,10 @@ myAI's capabilities extend beyond daily tasks and can provide valuable insights 
 
 ### Phase 1: Setup and Integration
 - [x] Install cameras, microphones, and sensors in designated areas
-- [ ] Connect 3D printer and pen plotting robot to the system
-- [ ] Set up coffee pot and dishwasher monitoring sensors
-- [ ] Integrate object detection and tracking models
-- [ ] Implement text-to-3D model conversion system
-- [ ] Set up natural language processing for request understanding and response generation
+- [x] Connect 3D printer and pen plotting robot to the system
+- [x] Integrate object detection and tracking model
+- [x] Implement text-to-3D model conversion system
+- [x] Set up natural language processing for request understanding and response generation
 - [ ] Configure robotic control system for pen plotting robot
 - [ ] Customize scheduling and reminder systems
 
