@@ -1,6 +1,8 @@
+# myAI
+
 ![myAI](https://i.imgur.com/GXpjcgB.png)
 
-# Cameras and Microphones Are All You Need
+## Cameras and Microphones Are All You Need
 
 ## WARNING
 
